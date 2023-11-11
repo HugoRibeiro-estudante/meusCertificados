@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 40px;
+    color: green;
+}
+
+.container{
+    background-color: slategray;
+    display: flex;
+    width: 95%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+h2{
+    color: green;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 94, 3);
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px double rgb(0, 94, 3);
+    width: 180px;
+    margin: auto;
+}
+
+a:hover{
+    background-color: rgb(0, 94, 3);
+    color: aliceblue;
+}
+
+.curso{
+    background-color: rgb(177, 208, 208);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border: 3px double rgb(0, 94, 3);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
